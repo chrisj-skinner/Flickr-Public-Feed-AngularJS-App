@@ -1,0 +1,19 @@
+<ul class="list-unstyled" class="row" >
+  <li class="row feed" ng-repeat="feed in feeds">
+    <aside class="col-xs-3">
+      <img ng-src="{{feed.media.m}}" alt="{{feed.image.alt}}" title="{{feed.title}}" height="100%" width="100%">
+    </aside>
+    <article class="col-xs-9">
+      <h2 data-ng-bind="feed.title" ng-click="panel.selectTab(2, feed);"></h2>
+      <!-- <p>{{feed.title}}</p> -->
+      <footer>
+        <ul class="details row list-unstyled">
+          <li class="col-md-5 col-lg-4 col-xs-12 col-md-push-2">
+            Published: {{ feed.published | date :"d MMM yyyy 'at' HH:mm"}} </li>
+          <li class="col-md-2 col-md-pull-5 col-lg-pull-4"><a ng-href="https://www.flickr.com/photos/{{feed.author_id}}" title="Photo Author">Photo Author</a></li>
+          <li class="col-md-2"><a ng-href="{{feed.link}}" title="View on Flickr">View on Flickr</a></li>
+        </ul>
+      </footer>
+    </article>
+  </li>
+</ul>
