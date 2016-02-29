@@ -1,0 +1,106 @@
+/* custom styles */
+
+.single-feed .details li,
+.single-feed .tags li {
+    display: inline-block;
+    float: left;
+    padding: 0 15px
+}
+
+h1 {
+    margin-bottom: 40px
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 15px;
+    max-height: 18px;
+    line-height: 18px;
+    max-width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+    color: #337ab7;
+    cursor: pointer
+}
+
+h2:hover {
+    text-decoration: underline;
+    color: #23527c
+}
+
+.flickr {
+    border: 1px solid green;
+    max-height: 400px;
+    padding-right: 15px;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    overflow: auto
+}
+
+.feed {
+    border-bottom: 1px solid #777
+}
+
+.feed p {
+    margin-bottom: 5px
+}
+
+.feed aside {
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.feed article {
+    padding-bottom: 10px
+}
+
+@media (min-width: 992px) {
+    .feed article {
+        padding-top: 10px;
+        padding-bottom: 0
+    }
+}
+
+.single-feed h2 {
+    float: left;
+    padding-left: 15px;
+    max-width: 80%
+}
+
+.single-feed .back-link {
+    float: right;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.single-feed .details {
+    clear: both;
+    margin-bottom: 10px;
+    overflow: hidden
+}
+
+.single-feed .details li:last-child {
+    border-left: 1px solid #000
+}
+
+.single-feed .tags {
+    padding-left: 0
+}
+
+.single-feed .tags li {
+    padding-left: 0
+}
+
+.single-feed aside {
+    clear: both
+}
+
+.details.row {
+    padding: 0 15px
+}
+
+.details.row>li {
+    padding: 0
+}
