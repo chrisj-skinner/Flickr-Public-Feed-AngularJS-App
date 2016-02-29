@@ -10,7 +10,7 @@ Main feed page includes:
   - Direct link to Photo on Flickr 
 
 
-Feed details are passed through on clicking a feed title. A SINGLE feed is displated with the following details:
+Feed details are passed through on clicking a feed title. A SINGLE feed is displayed with the following details:
 
   - Direct link to Post Author
   - Published date
