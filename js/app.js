@@ -4,7 +4,7 @@
 	angular.module('flickrApp', [])
 
 	// setup FlickFeedController
-	.controller('FlickrFeedController', ['$http', '$scope', function($http, $scope){
+	.controller('FlickrFeedController', ['$http', function($http){
 		
 		var flickr = this;
 		flickr.feeds = [];
