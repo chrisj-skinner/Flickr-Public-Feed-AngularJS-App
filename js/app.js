@@ -54,6 +54,7 @@
 			restrict: 'E',
 			templateUrl: 'partials/flickr-feed.html',
 			replace: true,
+			// pass through feeds and panel data
 			scope: {
 				feeds: '=',
 				panel: '='
@@ -70,7 +71,5 @@
 			replace: true
 		};
 	});
-
-	
 
 })();

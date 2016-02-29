@@ -1,9 +1,9 @@
 <ul class="list-unstyled" class="row" >
   <li class="row feed" ng-repeat="feed in feeds">
-    <aside class="col-xs-3">
-      <img ng-src="{{feed.media.m}}" alt="{{feed.image.alt}}" title="{{feed.title}}" height="100%" width="100%">
+    <aside class="col-xs-4">
+      <img ng-src="{{feed.media.m}}" class="img-responsive" alt="{{feed.image.alt}}" title="{{feed.title}}" height="100%" width="100%">
     </aside>
-    <article class="col-xs-9">
+    <article class="col-xs-8">
       <h2 data-ng-bind="feed.title" ng-click="panel.selectTab(2, feed);"></h2>
       <!-- <p>{{feed.title}}</p> -->
       <footer>

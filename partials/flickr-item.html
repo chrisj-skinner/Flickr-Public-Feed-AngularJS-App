@@ -1,12 +1,12 @@
 <div>
   <h2><a ng-href="{{panel.feed.link}}" title="View on Flickr"data-ng-bind="panel.feed.title"></a></h2>
-  <a href="" class="back-link" ng-click="panel.selectTab(1)">Back</a>
+  <button class="back-link" ng-click="panel.selectTab(1)">Back</button>
   <ul class="details list-unstyled">
       <li><a href="https://www.flickr.com/photos/{{panel.feed.author_id}}">Photo Author</a></li>
       <li>Published: {{panel.feed.published | date :"d MMM yyyy 'at' HH:mm"}}</li>
   </ul>
   <aside class="col-xs-3">
-      <img ng-src="{{panel.feed.media.m}}" alt="{{feed.image.alt}}" title="{{panel.feed.title}}" height="100%" width="100%">
+      <img ng-src="{{panel.feed.media.m}}" class="img-responsive" alt="{{feed.image.alt}}" title="{{panel.feed.title}}" height="100%" width="100%">
   </aside>
   <article class="col-xs-9">
       <p>{{panel.feed.p}}</p>
