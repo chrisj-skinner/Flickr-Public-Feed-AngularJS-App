@@ -12,20 +12,20 @@
 		// grab the json array
 		var request = $http.get('http://crossorigin.me/https://api.flickr.com/services/feeds/photos_public.gne?tags=trees&format=json');
 
-        // on success
-        request.success(function(response){
+        	// on success
+        	request.success(function(response){
 
-        	// work-around since data is returned as a string
-        	response = response.replace('jsonFlickrFeed(', '');
-	        response = response.replace('})', '}');
-	        response = response.replace(/\\'/g, "'");
+        		// work-around since data is returned as a string
+        		response = response.replace('jsonFlickrFeed(', '');
+	        	response = response.replace('})', '}');
+	        	response = response.replace(/\\'/g, "'");
 
-	        // parse the data
-	        response = JSON.parse(response);
+	        	// parse the data
+	        	response = JSON.parse(response);
 
-            flickr.feeds = response.items;
+            		flickr.feeds = response.items;
 
-        });
+        	});
 
 	}])
 
