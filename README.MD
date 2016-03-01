@@ -35,7 +35,7 @@ Flickr Public Feed AngularJS App uses a number of open source projects to work p
 
 A bower.json file is included.
 
-Run the following to install the required bower components:
+Run the following command in the root directory of the app to install the required bower components:
 
 ```sh
 $ bower install
