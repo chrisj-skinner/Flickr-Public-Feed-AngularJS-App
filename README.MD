@@ -45,3 +45,6 @@ License
 ----
 
 MIT
+
+ [AngularJS]: <http://angularjs.org>
+ [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
