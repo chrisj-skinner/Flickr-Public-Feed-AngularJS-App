@@ -2,8 +2,8 @@
 
 Flickr Public Feed AngularJS App is a single page AngularJS app that displays a list of flickr feeds. Directives are utilised to modularize code as well as passing data through directives to minimise code.
 
-	Main feed page: [partials/flickr-feed.html] [MFP]
-	Single feed page [partials/flickr-item.html] [SFP]
+- Main feed page: [partials/flickr-feed.html] [MFP]
+- Single feed page [partials/flickr-item.html] [SFP]
 
 
 **Main feed page:**
