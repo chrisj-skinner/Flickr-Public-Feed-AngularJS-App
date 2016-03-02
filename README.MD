@@ -6,7 +6,7 @@ Flickr Public Feed AngularJS App is a single page AngularJS app that displays a 
 - Single feed page [partials/flickr-item.html] [SFP]
 
 
-**Main feed page:**
+**Main feed page displays:**
 
   - Photo
   - Title with internal link to **Single feed**
@@ -14,7 +14,7 @@ Flickr Public Feed AngularJS App is a single page AngularJS app that displays a 
   - External link to Photo on Flickr 
 
 
-**Single feed page:**
+**Single feed page displays:**
 
 Feed details are passed through on clicking a feed title with the following details displayed:
 
