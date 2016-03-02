@@ -2,15 +2,17 @@
 
 Flickr Public Feed AngularJS App is a single page AngularJS app that displays a list of flickr feeds.
 
-Main feed page includes:
+Main feed page [partials/flickr-feed.html] [MFP] includes:
+
 
   - Photo
-  - Title - local link to SINGLE feed
+  - Title - local link to [Single] [SFP] feed
   - Direct link to Post Author
   - Direct link to Photo on Flickr 
 
 
-Feed details are passed through on clicking a feed title. A SINGLE feed is displayed with the following details:
+Feed details are passed through on clicking a feed title.
+A Single feed page [partials/flickr-item.html] [SFP] is displayed with the following details:
 
   - Direct link to Post Author
   - Published date
@@ -48,3 +50,6 @@ MIT
 
  [AngularJS]: <http://angularjs.org>
  [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+
+ [MFP]: <https://github.com/chrisj-skinner/Flickr-Public-Feed-AngularJS-App/blob/master/partials/flickr-feed.html>
+ [SFP]: <https://github.com/chrisj-skinner/Flickr-Public-Feed-AngularJS-App/blob/master/partials/flickr-item.html>
